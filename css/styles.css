@@ -1,0 +1,33 @@
+body{ 
+    background-color: #3E5666;
+    color: #dde4ea;
+}
+ .site-header{
+   background-color: #778C9d;
+    color: #dde4ea;
+    padding: 2rem 1rem;
+
+ }
+ .site-header__title{
+ margin: 0;
+    font-size: 2.5rem;
+    text-align: center;
+ }
+ .main-nav {
+    background-color: #121a38;
+    padding: 1rem;
+    text-align: center;
+}
+
+.main-nav a {
+    color: #22d3ee;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-weight: bold;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: dde4ea;
+    text-decoration: underline;
+}
