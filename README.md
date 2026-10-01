@@ -1,10 +1,12 @@
 ## Mini sitio web - Fundamentos WEB
 
+# Grupo 4303
+
 ## Integrante
 
 * Valeria Gongora
 
-## Temas
+## Temas del proyecto
 
 1. Inteligencia Artificial
 2. Ciberseguridad
@@ -12,13 +14,17 @@
 
 ## Distribución del trabajo
 
-El proyecto fue desarrollado de manera individual.
+El proyecto fue desarrollado de manera individual por Valeria Gongora.
 
-* **Inteligencia Artificial:** investigación y desarrollo de la página `index.html`.
-* **Ciberseguridad:** investigación y desarrollo de la página `tema2.html`.
-* **Computación en la nube:** investigación y desarrollo de la página `tema3.html`.
-* **Diseño y estilos:** aplicación de CSS, organización visual, colores, enlaces, tablas e imágenes.
-* **Organización del proyecto:** estructura de carpetas, navegación entre páginas y documentación.
+Las actividades realizadas fueron:
+
+* Creación de las páginas HTML.
+* Investigación y organización de la información.
+* Inclusión de imágenes y tablas.
+* Creación de la navegación entre páginas.
+* Diseño y aplicación de estilos CSS.
+* Organización del proyecto con Git y GitHub.
+* Revisión de la estructura HTML y CSS.
 
 ## Estructura del proyecto
 
@@ -42,69 +48,98 @@ fundamentos-web-valeria/
 * CSS3
 * Git
 * GitHub
+* Visual Studio Code
 
-No se utilizaron JavaScript ni frameworks.
+## Descripción de los temas
 
-## Descripción
+### Inteligencia Artificial
 
-El proyecto consiste en un mini sitio web sobre temas actuales relacionados con la tecnología.
+La inteligencia artificial es una tecnología que permite desarrollar sistemas capaces de realizar tareas que normalmente requieren capacidades asociadas con la inteligencia humana, como el aprendizaje, el reconocimiento de patrones y la toma de decisiones.
 
-Las páginas desarrolladas son:
+### Ciberseguridad
 
-* **Inteligencia Artificial:** presenta información sobre qué es la IA, sus aplicaciones y ejemplos de uso.
-* **Ciberseguridad:** presenta información sobre la protección de sistemas, datos y usuarios frente a amenazas digitales.
-* **Computación en la nube:** presenta información sobre los servicios cloud, sus características, ventajas y ejemplos de uso.
+La ciberseguridad comprende las medidas utilizadas para proteger sistemas, dispositivos, redes y datos frente a amenazas digitales y accesos no autorizados.
 
-Las tres páginas cuentan con una navegación interna que permite desplazarse entre los diferentes temas.
+### Computación en la nube
 
-## CSS
+La computación en la nube permite acceder a recursos y servicios informáticos mediante Internet. Entre estos servicios se encuentran el almacenamiento, los servidores, las bases de datos y diferentes aplicaciones.
 
-Se utilizó una única hoja de estilos externa llamada `styles.css`, ubicada en la carpeta `css/`.
-
-La misma hoja de estilos se conecta con las tres páginas HTML para mantener una apariencia visual coherente.
-
-### Convención CSS
+## Convención CSS
 
 * Idioma de las clases: inglés.
-* Se utilizan clases reutilizables para aplicar estilos a diferentes elementos.
-* Para componentes que lo requieren se utiliza una estructura basada en BEM.
+* Formato utilizado: `kebab-case`.
+* Se utilizan nombres de clases descriptivos.
+* Se utiliza BEM cuando aplica, por ejemplo: `site-header` y `site-header__title`.
+* Las tres páginas utilizan una hoja de estilos externa compartida: `css/styles.css`.
 
-### Paleta de colores
+## Paleta de colores
 
-* **Primary:** `#173b8f`
-* **Secondary:** `#2563eb`
-* **Accent:** `#22d3ee`
-* **Background:** `#0b1026`
-* **Surface:** `#121a38`
-* **Text:** `#eaf2ff`
+* Primary: `#173b8f`
+* Secondary: `#778c9d`
+* Accent: `#22d3ee`
+* Background: `#3e5666`
+* Surface: `#121a38`
+* Text: `#dde4ea`
 
-### Justificación de la paleta
+### Justificación
 
-La paleta utiliza diferentes tonos de azul, cian y colores oscuros para representar una estética tecnológica y relacionada con el concepto de un entorno digital o espacial. Los colores claros utilizados para el texto permiten mantener una buena lectura sobre los fondos oscuros.
+La paleta fue seleccionada para crear una apariencia relacionada con la tecnología. Los tonos azules y cian permiten destacar títulos, enlaces y elementos importantes, mientras que los tonos oscuros facilitan la lectura del contenido.
 
+## Prueba de cascada
+
+Se realizó una prueba de especificidad CSS utilizando selectores de elemento, clase, ID y estilo en línea.
+
+La prueba permitió observar que los estilos pueden entrar en conflicto y que CSS aplica reglas de prioridad según la especificidad de los selectores.
+
+Para el proyecto final se retiraron los estilos utilizados únicamente para la prueba.
 
 ## Navegación
 
-Las tres páginas están conectadas mediante enlaces internos:
+Las tres páginas están conectadas mediante un menú de navegación:
 
-* `index.html` → Inteligencia Artificial
-* `tema2.html` → Ciberseguridad
-* `tema3.html` → Computación en la nube
+* Inteligencia Artificial
+* Ciberseguridad
+* Computación en la nube
 
-También se incluyen enlaces externos hacia fuentes relacionadas con cada tema.
+Cada página permite acceder a las otras páginas del proyecto.
 
 ## Validación
 
-Se revisó la estructura de las páginas HTML, los enlaces internos y externos, las imágenes, las tablas, los elementos semánticos y la hoja de estilos CSS.
+Se revisó la estructura de las páginas HTML para utilizar elementos semánticos como:
 
-También se verificará la navegación mediante teclado y la legibilidad de los textos y enlaces.
+* `header`
+* `nav`
+* `main`
+* `section`
+* `figure`
+* `footer`
+
+También se revisaron los enlaces, imágenes, tablas y la hoja de estilos CSS.
 
 ## Control de versiones
 
-El proyecto utiliza Git para registrar los cambios realizados durante el desarrollo y GitHub para almacenar y publicar el repositorio.
+El proyecto fue gestionado mediante Git y GitHub.
 
-Los cambios se organizan mediante commits que describen las modificaciones realizadas.
+Se realizaron diferentes commits durante el desarrollo para registrar los cambios realizados en el proyecto.
 
-## Fuentes
+## Fuentes consultadas
 
-Las fuentes utilizadas para la investigación se encuentran al final de cada página HTML mediante enlaces externos.
+### Inteligencia Artificial
+
+* IBM: https://www.ibm.com/topics/artificial-intelligence
+
+### Ciberseguridad
+
+* IBM: https://www.ibm.com/think/topics/cybersecurity
+* CISA: https://www.cisa.gov/topics/cyber-threats-and-advisories
+
+### Computación en la nube
+
+* Computer Weekly en español: https://www.computerweekly.com/es/
+* Google Cloud: https://cloud.google.com/learn/advantages-of-cloud-computing?hl=es-419
+
+## Autor
+
+Valeria Gongora
+
+**Fundamentos WEB - Grupo 4303**
